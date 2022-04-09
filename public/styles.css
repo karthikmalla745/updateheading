@@ -1,0 +1,46 @@
+.container {
+  background: darkgreen;
+  height: 40em;
+  position: relative;
+}
+.container h1 {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 50px;
+  border-radius: 5px;
+}
+.bttn {
+  margin: 0;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 30px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 40px;
+  border-radius: 5px;
+  margin: 10px;
+}
+button {
+  font-size: 30px;
+  background: white;
+  color: navy;
+  border: red solid 3px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
